@@ -30,7 +30,12 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+YOUTUBE_API_KEY = 'YOUR_YOUTUBE_API_KEY'
+
+
 INSTALLED_APPS = [
+    'rest_framework',
+    'video_api',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
