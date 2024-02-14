@@ -1,5 +1,4 @@
-
-pip install django
-pip install django djangorestframework youtube_transcript_api
-pip install djangorestframework
-pip install gunicorn
+Django
+djangorestframework
+youtube-transcript-api
+gunicorn
